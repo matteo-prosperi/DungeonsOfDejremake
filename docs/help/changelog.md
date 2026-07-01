@@ -9,9 +9,9 @@ project uses git-height–based versioning (clean `0.1.x` releases on `main`).
 
 ## [Unreleased]
 
-Changes landed since 0.1.9 will be listed here until the next release is cut.
+Changes landed since 0.1.10 will be listed here until the next release is cut.
 
-## [0.1.9] — 2026-06-30 — current release
+## [0.1.10] — 2026-06-30 — current release
 
 ### Added
 - Player help & guide: a per-screen how-to set under `docs/help/`, with a
