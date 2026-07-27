@@ -9,9 +9,40 @@ project uses git-height–based versioning (clean `0.1.x` releases on `main`).
 
 ## [Unreleased]
 
-Changes landed since 0.1.12 will be listed here until the next release is cut.
+Changes landed since 0.1.17 will be listed here until the next release is cut.
 
-## [0.1.12] — 2026-07-13 — current release
+## [0.1.17] — 2026-07-27 — current release
+
+An engine upgrade plus a round of combat-readability polish: things that take
+damage now visibly react.
+
+### Added
+- Taking damage now **shakes** the thing that was hit. Alongside your own status
+  bar, this now covers your **ally line**, each **companion entry**, and each
+  **monster group** in the encounter panel — each one reacting to its own
+  damage, so you can see at a glance which group your attack actually landed on.
+  The strength of the shake scales with how hard the hit was and how close to
+  death the target is. In co-op both players' panels react independently.
+
+### Changed
+- The game now runs on **Godot 4.7.1** (up from 4.6.2).
+- Ally affliction icons now **scale with the interface font** instead of staying
+  a fixed size, so they stay legible when the UI is scaled up on phones and TVs.
+- A gamepad can no longer drive your character while the **game window is not
+  focused**.
+- On Android the **Godot boot splash is gone** — the system splash stays up
+  until the game is ready, so startup no longer shows two splash screens.
+
+### Fixed
+- Corrected the alignment of **friendly-monster group portraits** when the peace
+  sign is shown: with a single group the portrait now sits exactly where it does
+  in a fight, with the peace sign to its right, instead of being pushed off
+  center. (With three groups the whole block stays centered — there is no room
+  for the peace sign to hang off the side.)
+- Keyboard key-cap hints on the **monster group buttons** no longer flicker in
+  the wrong place between turns.
+
+## [0.1.12] — 2026-07-13
 
 A large playtest pass (dungeon levels 1–4): 20 fixes plus 5 new ally-focused
 features.
