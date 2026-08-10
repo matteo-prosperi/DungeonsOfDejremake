@@ -9,9 +9,25 @@ project uses git-height–based versioning (clean `0.1.x` releases on `main`).
 
 ## [Unreleased]
 
-Changes landed since 0.1.17 will be listed here until the next release is cut.
+Changes landed since 0.1.19 will be listed here until the next release is cut.
 
-## [0.1.17] — 2026-07-27 — current release
+## [0.1.19] — 2026-08-09 — current release
+
+Cloud saves and expanded signed release builds for Windows and Android.
+
+### Added
+- **Google Drive cloud saves** now use the private `appDataFolder`, sharing save
+  data across Windows and Android. Files sync individually through an
+  ETag-protected manifest, with conflict resolution, migration backups, and
+  conservative cleanup of orphaned files.
+- Windows OAuth uses **PKCE**, with refresh tokens protected by **DPAPI**;
+  Android authorization uses **Google Identity**.
+- Windows releases now include both **x86-64 and ARM64** builds, and Android
+  releases include a **release-signed APK**.
+- OAuth and signing credentials can be carried between repository checkouts in
+  a repository-portable release vault encrypted with **AES-256-GCM**.
+
+## [0.1.17] — 2026-07-27
 
 An engine upgrade plus a round of combat-readability polish: things that take
 damage now visibly react.
