@@ -9,9 +9,9 @@ project uses git-height–based versioning (clean `0.1.x` releases on `main`).
 
 ## [Unreleased]
 
-Changes landed since 0.1.24 will be listed here until the next release is cut.
+Changes landed since 0.1.25 will be listed here until the next release is cut.
 
-## [0.1.24] — 2026-08-11 — current release
+## [0.1.25] — 2026-08-11 — current release
 
 Cloud-save interoperability and startup usability fixes for Windows and
 Android.
