@@ -9,9 +9,40 @@ project uses git-height–based versioning (clean `0.1.x` releases on `main`).
 
 ## [Unreleased]
 
-Changes landed since 0.1.20 will be listed here until the next release is cut.
+Changes landed since 0.1.22 will be listed here until the next release is cut.
 
-## [0.1.20] — 2026-08-09 — current release
+## [0.1.22] — 2026-08-11 — current release
+
+Cloud-save interoperability and startup usability fixes for Windows and
+Android.
+
+### Added
+- The main menu now shows a prominent animated status panel while cloud saves
+  are being checked. It replaces the game-start buttons temporarily rather than
+  extending the menu over the title artwork.
+
+### Changed
+- Windows and Android now use OAuth clients from the same Google Cloud project,
+  allowing both platforms to see the same hidden Google Drive save data.
+- Startup cloud checks are faster: manifest metadata returned by Drive is
+  reused, and orphan-file maintenance is deferred until a manual sync or save
+  publish.
+- Google Drive manifest concurrency now uses Drive file versions and
+  copy-on-write replacement, matching the behavior supported by Drive API v3.
+
+### Fixed
+- Cloud saves downloaded on a new Windows installation now refresh the main
+  menu and enable Continue and Load Character correctly.
+- Legacy combined-format save files no longer obscure valid split character and
+  world saves after migration.
+- Running without Google Drive authorization or network access no longer traps
+  the player at the startup gate; local offline play remains available.
+- Fixed a startup crash caused by endlessly rescheduling cloud publishing when
+  authentication was unavailable.
+- Fixed manifest-read races and preserved the replacement manifest's Drive
+  version during duplicate reconciliation.
+
+## [0.1.20] — 2026-08-09
 
 Cloud saves and expanded signed release builds for Windows and Android.
 
