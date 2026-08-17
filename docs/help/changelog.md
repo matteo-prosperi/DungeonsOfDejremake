@@ -9,9 +9,34 @@ project uses git-height–based versioning (clean `0.1.x` releases on `main`).
 
 ## [Unreleased]
 
-Changes landed since 0.1.26 will be listed here until the next release is cut.
+Changes landed since 0.1.27 will be listed here until the next release is cut.
 
-## [0.1.26] — 2026-08-11 — current release
+## [0.1.27] — 2026-08-16 — current release
+
+Guild Hall touch reliability and clearer action availability.
+
+### Changed
+- Item details now show an item's `(g)`, `(n)`, or `(e)` alignment marker in
+  red when it is opposed to the current character and would become cursed when
+  equipped.
+- Quest forfeiture now requires an explicit confirmation that explains the
+  accumulated XP progress and guild levels that will be lost.
+
+### Fixed
+- On Windows touchscreens, the enlarged button-text preview no longer remains
+  stuck on screen after pressing **Make Level**.
+- Rebuilding the Guild Hall action area after **Re-Acquaint** can no longer
+  reuse the same touch contact to activate the replacement action or dismiss
+  its result dialog.
+- **Make Level** remains visible but disabled when the character has enough XP
+  but cannot afford the fee, with the missing-gold reason shown beside it.
+- **Join**, **Re-Acquaint**, and pinned-quest **Forfeit Quest** actions remain
+  visible but disabled while cursed equipment blocks them, with an explanation
+  telling the player to remove the cursed items.
+- A cursed-item-blocked guild join no longer moves gold out of the bank before
+  failing.
+
+## [0.1.26] — 2026-08-11
 
 Cloud-save interoperability and startup usability fixes for Windows and
 Android.
