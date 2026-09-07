@@ -9,9 +9,36 @@ project uses git-height–based versioning (clean `0.1.x` releases on `main`).
 
 ## [Unreleased]
 
-Changes landed since 0.1.27 will be listed here until the next release is cut.
+Changes landed since 0.1.33 will be listed here until the next release is cut.
 
-## [0.1.27] — 2026-08-16 — current release
+## [0.1.33] — 2026-09-06 — current release
+
+Faster and less intrusive cloud saves, more reliable input hints, and several
+dungeon and ally-behavior corrections.
+
+### Changed
+- Cloud save objects are now gzip-compressed independently and small files use
+  one-request multipart uploads, substantially reducing synchronization time
+  while retaining compatibility with older uncompressed manifests.
+- Cloud manifests now record a per-installation writer identity and monotonic
+  revision. When both variants came from the same installation, the newer
+  revision is selected automatically instead of showing an unnecessary
+  conflict-choice screen.
+- An ally's decision to cast **Charm of Opening** now depends on spell
+  availability, its enabled setting, and SP cost—not thieving competency.
+  Choosing the best character to physically open the unlocked chest remains a
+  separate decision made after either the player or ally casts the spell.
+
+### Fixed
+- While lost, walking into a wall no longer marks the unseen cell beyond that
+  wall as discovered.
+- Touch-only Android devices no longer show keyboard key-cap hints. Connecting
+  and using a physical keyboard still enables them.
+- The Z/X/C/V hints on monster-group buttons no longer blink between combat
+  refreshes. The four rows, target dots, and glyphs now remain mounted while
+  their labels and group bindings update in place.
+
+## [0.1.27] — 2026-08-16
 
 Guild Hall touch reliability and clearer action availability.
 
