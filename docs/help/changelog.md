@@ -9,9 +9,18 @@ project uses git-height–based versioning (clean `0.1.x` releases on `main`).
 
 ## [Unreleased]
 
-Changes landed since 0.1.37 will be listed here until the next release is cut.
+Changes landed since 0.1.38 will be listed here until the next release is cut.
 
-## [0.1.37] — 2026-09-07 — current release
+## [0.1.38] — 2026-09-07 — current release
+
+More reliable touch scrolling in spell lists.
+
+### Fixed
+- The enlarged button-text preview no longer remains stuck on screen when
+  touch-scrolling the dungeon or character spell lists. Starting a scroll
+  dismisses the preview, including gestures that begin between spell rows.
+
+## [0.1.37] — 2026-09-07
 
 More reliable cloud-save history across devices, safer touch scrolling, and
 clearer item details.
