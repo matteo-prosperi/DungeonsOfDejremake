@@ -9,9 +9,37 @@ project uses git-height–based versioning (clean `0.1.x` releases on `main`).
 
 ## [Unreleased]
 
-Changes landed since 0.1.33 will be listed here until the next release is cut.
+Changes landed since 0.1.37 will be listed here until the next release is cut.
 
-## [0.1.33] — 2026-09-06 — current release
+## [0.1.37] — 2026-09-07 — current release
+
+More reliable cloud-save history across devices, safer touch scrolling, and
+clearer item details.
+
+### Added
+- Completely identified items now show their special-effect summary in item
+  details: stat modification or restoration of 50 or 200 spell points, as
+  appropriate.
+
+### Changed
+- Cloud saves now track each file's history across devices. A version that
+  incorporates all changes from the other version is selected automatically,
+  even when different devices last saved them. Independent edits and deletion
+  conflicts still require review; older cloud-save formats remain readable.
+- Explicit cloud conflict choices record both histories and the chosen content,
+  helping prevent the same content conflict from reappearing. This does not
+  merge character or world gameplay data.
+
+### Fixed
+- Offline save edits now retain their inherited cloud history and persist a new
+  revision before synchronization; retries reuse the revision for unchanged
+  content. Cloud-state recovery is also more robust after interrupted writes.
+- Dragging a touch-scrollable list no longer activates the button where the
+  gesture began, preventing accidental spell casts while scrolling.
+- Hennart's monster portrait no longer has letterboxing and is properly framed
+  at full square resolution.
+
+## [0.1.33] — 2026-09-06
 
 Faster and less intrusive cloud saves, more reliable input hints, and several
 dungeon and ally-behavior corrections.
