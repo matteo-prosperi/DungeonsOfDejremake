@@ -9,9 +9,36 @@ project uses git-height–based versioning (clean `0.1.x` releases on `main`).
 
 ## [Unreleased]
 
-Changes landed since 0.1.38 will be listed here until the next release is cut.
+Changes landed since 0.1.43 will be listed here until the next release is cut.
 
-## [0.1.38] — 2026-09-07 — current release
+## [0.1.43] — 2026-09-10 — current release
+
+Remembered teleporter destinations, clearer map edges, and more reliable
+stolen-gold recovery and automatic buffs.
+
+### Added
+- Fixed teleporters used while the source position and floor are known now
+  appear cyan in the dungeon and Library maps. Knowledge is shared across all
+  characters; random teleporters and unrecorded uses retain their usual color.
+- When a fixed teleporter's arrival position and floor are known, the Library
+  remembers its immediate destination. Click/tap the source, or use
+  keyboard/gamepad navigation, to select the destination floor and highlight
+  its cell. Facing loss alone does not prevent learning, and later lost arrivals
+  do not erase learned destinations. Older saves remain compatible and start
+  with no recorded teleporter history.
+
+### Fixed
+- Map edges containing both a wall and an ordinary door now display as walls,
+  matching their blocked movement behavior. Genuine discovered secret doors
+  retain their wall-and-door appearance.
+- Recoverable stolen gold is added after treasure scaling, rather than being
+  multiplied with ordinary treasure. Recovery is reported when the gold is
+  paid out, using the original game's message wording.
+- Missing auto-enabled buffs are retried after a Blackout trap and after combat
+  ends safely. Active buffs are not cast again, and escaping into another
+  hostile encounter does not trigger casts between the two combats.
+
+## [0.1.38] — 2026-09-07
 
 More reliable touch scrolling in spell lists.
 
