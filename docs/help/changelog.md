@@ -9,9 +9,9 @@ project uses git-height–based versioning (clean `0.1.x` releases on `main`).
 
 ## [Unreleased]
 
-Changes landed since 0.1.43 will be listed here until the next release is cut.
+Changes landed since 0.1.44 will be listed here until the next release is cut.
 
-## [0.1.43] — 2026-09-10 — current release
+## [0.1.44] — 2026-09-10 — current release
 
 Remembered teleporter destinations, clearer map edges, and more reliable
 stolen-gold recovery and automatic buffs.
