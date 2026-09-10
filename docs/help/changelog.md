@@ -9,9 +9,22 @@ project uses git-height–based versioning (clean `0.1.x` releases on `main`).
 
 ## [Unreleased]
 
-Changes landed since 0.1.44 will be listed here until the next release is cut.
+Changes landed since 0.1.46 will be listed here until the next release is cut.
 
-## [0.1.44] — 2026-09-10 — current release
+## [0.1.46] — 2026-09-10 — current release
+
+Clearer teleporter map knowledge.
+
+### Changed
+- A teleporter confirmed random by use now appears bright green in the dungeon
+  and Library maps. Purple remains an unknown destination type; cyan remains a
+  used fixed teleporter. The green state is shared across characters and does
+  not apply when co-op temporarily converts a fixed teleporter into a random
+  relocation.
+- Library teleporter destination-cell highlights are now cyan, matching the
+  used fixed-teleporter glyph rather than using the player/map-selection yellow.
+
+## [0.1.44] — 2026-09-10
 
 Remembered teleporter destinations, clearer map edges, and more reliable
 stolen-gold recovery and automatic buffs.
