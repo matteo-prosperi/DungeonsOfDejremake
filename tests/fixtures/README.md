@@ -26,5 +26,6 @@ contains **only the first 3 dungeon levels** (the full game has 15).
 
 Used as the source fixture for runtime data-extraction tests. The shipped game ships
 **no** original-derived data/art/audio; each end user extracts from their own copy of the
-original game. The original data/art/audio remain copyrighted by MakeItSo Software and
-are **never** committed here in extracted/transformed form.
+original game. The original data/art/audio remain copyrighted by Decklin's Domain and
+are **never** committed here in extracted/transformed form. MakeItSo Software is
+identified above only as the historical publisher of this 1995 shareware package.

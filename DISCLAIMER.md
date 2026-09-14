@@ -4,20 +4,22 @@
 
 **Dungeons of Dejremake** is an independent, non-commercial, fan-made remake. It
 is **not affiliated with, authorized, endorsed, licensed, or sponsored by**
-MakeItSo Software, TDA, or any other current or former rights holder of
+Decklin's Domain, MakeItSo Software, TDA, or any other current or former rights holder of
 _Mordor: The Depths of Dejenol_. This project is a hobby and game-preservation
 effort created out of appreciation for the original game.
 
 ## Trademarks and intellectual property
 
-_Mordor_, _Mordor: The Depths of Dejenol_, and any related names, logos, and
-marks are the property of their respective owners. They are used here only for
-descriptive, nominative purposes — to identify the original game that inspired
-this remake. No claim of ownership over those marks is made or implied.
+The IP of _Mordor: The Depths of Dejenol_ and related games is currently owned
+by Decklin's Domain. © 1994-2026 Decklin's Domain™ - All Rights Reserved.
+_Depths of Dejenol_ and _Darkness Awakening_ are trademarks of Decklin's Domain
+Ltd.
 
 All original-game content — including its data tables, dungeon layouts, item,
 monster and spell definitions, artwork, music, and sound effects — remains the
-copyright of its respective rights holders.
+copyright of Decklin's Domain. The names and marks are used here only for
+descriptive, nominative purposes — to identify the original game that inspired
+this remake. No claim of ownership over those marks is made or implied.
 
 ## No original-game content is distributed in the builds
 
@@ -42,17 +44,17 @@ bundled shareware documentation (`MORDOR.WRI`) states:
 > wish."
 
 This shareware package is **not** licensed under this repository's MIT License.
-It remains the property of its rights holders and is redistributed solely under
-the original publisher's own shareware terms. If you are a rights holder and
-would prefer it not be hosted here, please open an issue and it will be removed
-promptly.
+It remains Decklin's Domain intellectual property and is redistributed solely
+under the original publisher's own shareware terms. If you are a rights holder
+and would prefer it not be hosted here, please open an issue and it will be
+removed promptly.
 
 ## Scope of the MIT License
 
 The [MIT License](LICENSE) in this repository covers **only** this project's own
 original work (the remake and its compiled builds). It confers no rights in, and
 does not relicense, any third-party material — including the bundled shareware
-package and any original-game intellectual property or trademarks described
+package and any Decklin's Domain intellectual property or trademarks described
 above.
 
 ## No warranty

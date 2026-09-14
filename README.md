@@ -11,8 +11,9 @@
 </p>
 
 This is an independent, non-commercial preservation/hobby project. It is **not
-affiliated with, endorsed by, or sponsored by** MakeItSo Software or any current
-rights holder of the original game. See [DISCLAIMER.md](DISCLAIMER.md).
+affiliated with, authorized, endorsed, licensed, or sponsored by** Decklin's
+Domain, MakeItSo Software, TDA, or any other current or former rights holder of
+the original game. See [DISCLAIMER.md](DISCLAIMER.md).
 
 > **What's published here:** compiled game builds, distributed as
 > [Releases](../../releases). The remake's own source code is **not** published
@@ -155,9 +156,11 @@ that shareware package is **explicitly permitted by the original publisher** (se
 3 dungeon levels. If you own the full retail game, you can point the importer at
 your own copy to unlock all 15 levels.
 
-The original game's data, artwork, and audio remain the property of their
-respective rights holders and are **never** redistributed by this project in
-extracted or transformed form.
+The IP of _Mordor: The Depths of Dejenol_ and related games is currently owned
+by Decklin's Domain. © 1994-2026 Decklin's Domain™ - All Rights Reserved.
+_Depths of Dejenol_ and _Darkness Awakening_ are trademarks of Decklin's Domain
+Ltd. The original game's data, artwork, and audio are **never** redistributed
+by this project in extracted or transformed form.
 
 ## Getting started
 
@@ -188,9 +191,10 @@ Prosperi.
 **not** apply to, and grants no rights in:
 
 - the bundled shareware package (`tests/fixtures/MORDOR11.ZIP`) or any other
-  original-game content, which remains the property of its rights holders and is
-  redistributed only under the original publisher's own shareware terms; or
-- the names, trademarks, and other intellectual property of the original game
-  and its publisher.
+  original-game content, which remains Decklin's Domain intellectual property
+  and is redistributed only under the original publisher's own shareware terms;
+  or
+- Decklin's Domain names, trademarks, and other intellectual property, including
+  _Depths of Dejenol_ and _Darkness Awakening_.
 
 See [DISCLAIMER.md](DISCLAIMER.md) for the full legal notice.
