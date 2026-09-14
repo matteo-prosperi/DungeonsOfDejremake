@@ -9,9 +9,34 @@ project uses git-height–based versioning (clean `0.1.x` releases on `main`).
 
 ## [Unreleased]
 
-Changes landed since 0.1.46 will be listed here until the next release is cut.
+Changes landed since 0.1.52 will be listed here until the next release is cut.
 
-## [0.1.46] — 2026-09-10 — current release
+## [0.1.52] — 2026-09-14 — current release
+
+More reliable dungeon navigation, clearer town item lists, and better Seer
+guidance.
+
+### Changed
+- The Bank’s stored-item list now uses the same class-based headings and
+  alphabetical item order as the General Store.
+- In both the Bank and General Store, equipped items appear beneath their
+  individual equipment-slot heading; backpack items appear under
+  **Unequipped Inventory**.
+- After a successful Seer monster search, entering a room that can spawn the
+  target now rolls a direct encounter chance before ordinary monster-type
+  selection. Misses raise that chance from 20% to 40%, 60%, then 80%.
+
+### Fixed
+- Face-marker squares now show the player facing the forced direction both
+  while lost and when the map is rotated normally.
+- Cursed miscellaneous loot that must attach itself—such as Ball and Chain—now
+  attaches and applies its effects immediately, as in the original game.
+- The Seer no longer recommends an item carrier when that monster cannot
+  generate a chest capable of producing the requested item.
+- Recruited-ally status icons now use the Godot 4.7 RichTextLabel image-unit
+  API and no longer prevent the dungeon scene from loading.
+
+## [0.1.46] — 2026-09-10
 
 Clearer teleporter map knowledge.
 
