@@ -9,9 +9,9 @@ project uses git-height–based versioning (clean `0.1.x` releases on `main`).
 
 ## [Unreleased]
 
-Changes landed since 0.1.53 will be listed here until the next release is cut.
+Changes landed since 0.1.54 will be listed here until the next release is cut.
 
-## [0.1.53] — 2026-09-14 — current release
+## [0.1.54] — 2026-09-14 — current release
 
 More reliable dungeon navigation, clearer town item lists, and better Seer
 guidance.
