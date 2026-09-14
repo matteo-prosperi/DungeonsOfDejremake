@@ -38,6 +38,7 @@ The town is your safe hub. Everything outside the dungeon happens here.
 ### System
 - [Settings & Controls](settings.md)
 - [Couch Co-op](coop.md)
+- [End User License Agreement](eula.md)
 - [Changelog](changelog.md) — what's changed between releases.
 
 ## A note on game data and content

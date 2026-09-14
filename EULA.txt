@@ -1,0 +1,72 @@
+DUNGEONS OF DEJ'REMAKE
+END USER LICENSE AGREEMENT
+Effective date: September 14, 2026
+
+PLEASE READ THIS END USER LICENSE AGREEMENT ("EULA") CAREFULLY. BY
+DOWNLOADING, INSTALLING, OR USING A DUNGEONS OF DEJ'REMAKE GAME BINARY
+(THE "GAME"), YOU AGREE TO THESE TERMS. IF YOU DO NOT AGREE, DO NOT DOWNLOAD,
+INSTALL, OR USE THE GAME.
+
+1. LICENSE GRANT
+
+Subject to this EULA, Matteo Prosperi grants you a limited, personal,
+non-exclusive, non-transferable, revocable license to install and use the Game
+for your own non-commercial entertainment. No ownership or intellectual-property
+right in the Game is transferred to you.
+
+2. RESTRICTIONS
+
+Except to the extent a restriction is prohibited by applicable law, you may not:
+(a) copy the Game except as reasonably necessary to install it or make one
+personal backup; (b) distribute, publish, sell, rent, lease, lend, sublicense,
+transfer, or otherwise make the Game available to another person; (c) modify,
+translate, adapt, or create derivative works from the Game; (d) reverse
+engineer, decompile, or disassemble the Game; or (e) remove or alter any
+copyright, trademark, or other proprietary notice.
+
+3. ORIGINAL-GAME DATA AND THIRD-PARTY RIGHTS
+
+The Game does not include the original game's data, artwork, music, or sound
+effects. You are responsible for obtaining and using any original-game data
+lawfully. This EULA grants no rights in the original game or its intellectual
+property.
+
+The IP of Mordor: The Depths of Dejenol and related games is currently owned by
+Decklin's Domain. © 1994-2026 Decklin's Domain™ - All Rights Reserved.
+Depths of Dejenol and Darkness Awakening are trademarks of Decklin's Domain
+Ltd.
+
+4. OWNERSHIP
+
+The Game and all original, project-authored content in it are owned by Matteo
+Prosperi or its respective licensors and are protected by applicable
+intellectual-property laws. All rights not expressly granted in this EULA are
+reserved. Components distributed under their own third-party licenses remain
+subject to those licenses.
+
+5. TERMINATION
+
+This EULA remains in effect until terminated. It terminates automatically if you
+breach any term. On termination, you must stop using the Game and destroy all
+copies in your possession or control.
+
+6. NO WARRANTY
+
+THE GAME IS PROVIDED "AS IS" AND "AS AVAILABLE," WITHOUT WARRANTIES OR
+CONDITIONS OF ANY KIND, WHETHER EXPRESS, IMPLIED, OR STATUTORY, INCLUDING
+WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, AND
+NON-INFRINGEMENT, TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW.
+
+7. LIMITATION OF LIABILITY
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, MATTEO PROSPERI AND THE
+GAME'S CONTRIBUTORS WILL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL,
+CONSEQUENTIAL, EXEMPLARY, OR PUNITIVE DAMAGES, OR ANY LOSS OF DATA, PROFITS,
+GOODWILL, OR BUSINESS INTERRUPTION, ARISING FROM OR RELATED TO THE GAME OR
+THIS EULA.
+
+8. CHANGES TO THIS EULA
+
+The current EULA is published with the Game's release materials. Continued use
+of a later Game release after its EULA is made available constitutes acceptance
+of that release's EULA.

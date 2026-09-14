@@ -51,11 +51,15 @@ removed promptly.
 
 ## Scope of the MIT License
 
-The [MIT License](LICENSE) in this repository covers **only** this project's own
-original work (the remake and its compiled builds). It confers no rights in, and
-does not relicense, any third-party material — including the bundled shareware
-package and any Decklin's Domain intellectual property or trademarks described
-above.
+The [MIT License](LICENSE) in this repository covers only original distribution
+site, documentation, and project-authored media files committed to this
+repository. It does **not** apply to downloadable game binaries or GitHub
+release assets; those are governed by the [End User License Agreement](EULA.txt).
+
+The MIT license and EULA confer no rights in, and do not relicense, any
+third-party material — including the bundled shareware package and any Decklin's
+Domain intellectual property or trademarks described above. See
+[LICENSE-SCOPE.md](LICENSE-SCOPE.md) for the complete repository-license scope.
 
 ## No warranty
 

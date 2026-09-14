@@ -172,6 +172,8 @@ by this project in extracted or transformed form.
    artwork from your own copy to use in place of the bundled replacements. This
    can be toggled any time later from **Settings → Manage Original Assets…**.
 
+Game downloads are governed by the [End User License Agreement](docs/help/eula.md).
+
 New to the game? Read the **[Player Help & Guide](docs/help/index.md)** — a
 per-screen how-to plus a [Quickstart](docs/help/quickstart.md) and a list of
 [differences from the original](docs/help/index.md). See the
@@ -181,14 +183,16 @@ per-screen how-to plus a [Quickstart](docs/help/quickstart.md) and a list of
 
 Windows, Android, and (work-in-progress) web/console targets.
 
-## License
+## Repository license and game-binary EULA
 
-The original work in this repository — the remake itself and its compiled
-builds — is released under the [MIT License](LICENSE), Copyright (c) 2026 Matteo
-Prosperi.
+The [MIT License](LICENSE), Copyright (c) 2026 Matteo Prosperi, applies only to
+the original distribution-site, documentation, and project-authored media files
+committed in this repository. It does not license downloadable game binaries or
+GitHub release assets. See [LICENSE-SCOPE.md](LICENSE-SCOPE.md).
 
-**The MIT license applies only to this project's own original work.** It does
-**not** apply to, and grants no rights in:
+Downloadable game binaries are governed by the [End User License
+Agreement](EULA.txt). The MIT license and EULA do **not** apply to, and grant no
+rights in:
 
 - the bundled shareware package (`tests/fixtures/MORDOR11.ZIP`) or any other
   original-game content, which remains Decklin's Domain intellectual property
