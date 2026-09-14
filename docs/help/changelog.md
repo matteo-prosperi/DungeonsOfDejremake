@@ -11,6 +11,14 @@ project uses git-height–based versioning (clean `0.1.x` releases on `main`).
 
 Changes landed since 0.1.55 will be listed here until the next release is cut.
 
+### Changed
+- The repository MIT License is now explicitly limited to the original
+  distribution-site, documentation, and project-authored media files committed
+  here. Downloadable game binaries and GitHub release assets are governed by
+  the new End User License Agreement instead.
+- `EULA.txt` is attached to every existing release and will be included in
+  future Windows release archives.
+
 ## [0.1.55] — 2026-09-14 — current release
 
 Accurate ownership attribution and release-version reporting.
