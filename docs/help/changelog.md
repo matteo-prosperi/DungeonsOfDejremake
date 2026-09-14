@@ -9,9 +9,24 @@ project uses git-height–based versioning (clean `0.1.x` releases on `main`).
 
 ## [Unreleased]
 
-Changes landed since 0.1.54 will be listed here until the next release is cut.
+Changes landed since 0.1.55 will be listed here until the next release is cut.
 
-## [0.1.54] — 2026-09-14 — current release
+## [0.1.55] — 2026-09-14 — current release
+
+Accurate ownership attribution and release-version reporting.
+
+### Changed
+- The game’s About dialog now displays the version stamped into each release
+  build from the project’s git-derived release version.
+- Legal notices now identify Decklin's Domain as the current owner of the
+  _Mordor: The Depths of Dejenol_ IP and related games. _Depths of Dejenol_ and
+  _Darkness Awakening_ are attributed as Decklin's Domain Ltd. trademarks.
+
+### Fixed
+- The release build now verifies that the Godot project version used by the
+  About dialog exactly matches the git-derived release version before export.
+
+## [0.1.54] — 2026-09-14
 
 More reliable dungeon navigation, clearer town item lists, and better Seer
 guidance.
