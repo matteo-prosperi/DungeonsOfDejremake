@@ -9,9 +9,9 @@ project uses git-height–based versioning (clean `0.1.x` releases on `main`).
 
 ## [Unreleased]
 
-Changes landed since 0.1.52 will be listed here until the next release is cut.
+Changes landed since 0.1.53 will be listed here until the next release is cut.
 
-## [0.1.52] — 2026-09-14 — current release
+## [0.1.53] — 2026-09-14 — current release
 
 More reliable dungeon navigation, clearer town item lists, and better Seer
 guidance.
@@ -35,6 +35,8 @@ guidance.
   generate a chest capable of producing the requested item.
 - Recruited-ally status icons now use the Godot 4.7 RichTextLabel image-unit
   API and no longer prevent the dungeon scene from loading.
+- Data validation now reports missing map data explicitly instead of failing
+  while examining a linked teleporter or chute.
 
 ## [0.1.46] — 2026-09-10
 
