@@ -9,7 +9,15 @@ project uses git-height–based versioning (clean `0.1.x` releases on `main`).
 
 ## [Unreleased]
 
-Changes landed since 0.1.55 will be listed here until the next release is cut.
+No changes yet.
+
+## [0.1.60] — 2026-10-01 — current release
+
+Clearer dungeon maps, reliable guild crest charges, and smoother spell travel.
+
+### Added
+- An offline biome-review atlas can be generated from the original dungeon
+  maps for design review; it does not change the in-game dungeon or encounters.
 
 ### Changed
 - The repository MIT License is now explicitly limited to the original
@@ -19,7 +27,17 @@ Changes landed since 0.1.55 will be listed here until the next release is cut.
 - `EULA.txt` is attached to every existing release and will be included in
   future Windows release archives.
 
-## [0.1.55] — 2026-09-14 — current release
+### Fixed
+- Ethereal Portal and other relocation spells now apply destination-room
+  encounter effects immediately instead of waiting for the character to leave
+  and re-enter the room.
+- Monster names use more natural plural forms, including Hero and Goblin Shaman.
+- Water and quicksand are both visible on dungeon-map cells where they overlap,
+  with distinct wave patterns.
+- Newly awarded guild crests start with their full charges. Depleted crests
+  carried or equipped by the character recharge on returning to town.
+
+## [0.1.55] — 2026-09-14
 
 Accurate ownership attribution and release-version reporting.
 
