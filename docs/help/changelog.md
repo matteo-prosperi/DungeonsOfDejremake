@@ -11,7 +11,40 @@ project uses git-height–based versioning (clean `0.1.x` releases on `main`).
 
 No changes yet.
 
-## [0.1.60] — 2026-10-01 — current release
+## [0.1.65] — 2026-10-11 — current release
+
+More ally guild choices, exploration support, and clear cursed-item removal.
+
+### Added
+- Optional **Indestructible equipped items** setting protects equipped items
+  from destruction.
+- Optional **Don't restore drained stats in town** setting preserves temporary
+  player stat drain instead of clearing it on returning to town.
+- Seeker and Wizard are available as primary or secondary Tavern ally guilds.
+  Seeker pairs with Warrior, Sorcerer, Healer, Paladin, Villain, Ninja, Thief,
+  and Scavenger. Wizard pairs with Thief, Warrior, Ninja, Paladin, Scavenger,
+  Healer, and Villain. All pairings work in both directions and still respect
+  the original guild eligibility requirements.
+- Villain allies can also pair with Sorcerer and Scavenger; Paladin allies can
+  also pair with Scavenger.
+- Context-sensitive ally commands for Depth Perception, Ethereal Portal,
+  Find Direction, Displacement, and Teleport. Allies pay the spell cost while
+  the effect applies to their owner; only currently usable commands appear.
+
+### Changed
+- Ally support AI can maintain levitation outside hostile combat with Feather
+  Essence or Mass Levitate when buffs are enabled and spell/SP gates allow it.
+- Newly offered Villain allies always have an allowed secondary guild, either
+  leveled or pending.
+
+### Fixed
+- Auto-attached miscellaneous items such as Ball and Chain now appear as
+  equipped items rather than unequipped inventory.
+- Attached cursed items can be detached for the original removal fee through
+  the General Store, Bank, or Character Panel, then sold or banked normally.
+  Detachment works with a full backpack and does not duplicate the item.
+
+## [0.1.60] — 2026-10-01
 
 Clearer dungeon maps, reliable guild crest charges, and smoother spell travel.
 
