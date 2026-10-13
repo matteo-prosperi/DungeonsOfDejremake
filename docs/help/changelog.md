@@ -11,7 +11,51 @@ project uses git-height–based versioning (clean `0.1.x` releases on `main`).
 
 No changes yet.
 
-## [0.1.65] — 2026-10-11 — current release
+## [0.1.68] — 2026-10-12 — current release
+
+Mage allies, targeted item spells, and more reliable companion support.
+
+### Added
+- Mage is available as a primary or secondary Tavern ally guild, subject to
+  the existing race, alignment, and guild eligibility requirements.
+- A new ally **Charm** toggle controls automatic recruitment of suitable
+  monsters during hostile combat and binding maintenance outside combat.
+- Owned companions show qualitative binding/contentment assessments, clearer
+  stability-face indicators, and a distinct permanent-binding icon.
+- Optional **Use library knowledge to filter available spells** setting filters
+  manual enemy spell choices using the acting player's monster knowledge.
+  It is off by default and does not change automatic ally spell decisions.
+- Friendly and peaceful monster-group buttons can select offensive spell and
+  item targets without provoking the encounter.
+
+### Changed
+- Learned Control, Restrain, and Domination are cast on a selected companion
+  through its context menu, rather than the generic Cast list or action bar.
+- Spell-casting items used from inventory, equipped gear, or the hotbar offer
+  useful recipient, destination, or locate/retrieve target pickers as needed.
+  Binding items, including Life Domination, select a specific companion.
+- Offensive spells and spell-casting items retain the selected monster group
+  when a peaceful encounter becomes combat.
+- Raise-item pickers distinguish dead characters, carried companion bodies,
+  and dead roster companions.
+
+### Fixed
+- Manual spell availability and peaceful casting now respect the current
+  encounter, recipient state, and original combat restrictions.
+- Ally behavior and per-spell toggle changes made during combat apply to the
+  live ally and remain in effect after combat ends.
+- Shared co-op ally support preserves live HP, SP, and ailments instead of
+  reverting to stale saved state.
+- Item targeting preserves the actual item and companion across normal combat
+  rounds; canceled or invalidated requests spend no charges.
+- Equipped-only spell items work from the hotbar, and successful item revival
+  clears the ally's downed state.
+- Item relocation settles the outgoing encounter and activates the destination
+  room's encounter instead of carrying the old fight into the new room.
+- NPC status icons keep font-relative sizing without the image-unit API
+  dependency that could prevent the dungeon script from loading.
+
+## [0.1.65] — 2026-10-11
 
 More ally guild choices, exploration support, and clear cursed-item removal.
 
