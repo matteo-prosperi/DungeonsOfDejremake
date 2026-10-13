@@ -11,7 +11,7 @@ project uses git-height–based versioning (clean `0.1.x` releases on `main`).
 
 No changes yet.
 
-## [0.1.68] — 2026-10-12 — current release
+## [0.1.69] — 2026-10-12 — current release
 
 Mage allies, targeted item spells, and more reliable companion support.
 
@@ -47,7 +47,8 @@ Mage allies, targeted item spells, and more reliable companion support.
 - Shared co-op ally support preserves live HP, SP, and ailments instead of
   reverting to stale saved state.
 - Item targeting preserves the actual item and companion across normal combat
-  rounds; canceled or invalidated requests spend no charges.
+  rounds; canceled or invalidated requests spend no charges. Newly created
+  companion instances no longer report missing identity-metadata errors.
 - Equipped-only spell items work from the hotbar, and successful item revival
   clears the ally's downed state.
 - Item relocation settles the outgoing encounter and activates the destination
