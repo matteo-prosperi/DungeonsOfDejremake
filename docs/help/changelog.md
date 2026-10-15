@@ -11,7 +11,56 @@ project uses git-height–based versioning (clean `0.1.x` releases on `main`).
 
 No changes yet.
 
-## [0.1.71] — 2026-10-14 — current release
+## [0.1.73] — 2026-10-15 — current release
+
+Consistent switches, shared buff automation, and smoother local saving.
+
+### Added
+- A dedicated **Buffs** master and per-spell **Self / All / Disabled** modes
+  for played characters and allies. Healing and cures remain separate.
+- Confirmation dialogs before dismissing a character, attacking a companion,
+  or kicking a companion out of the party.
+
+### Changed
+- Binary settings use one bordered control containing both their label and
+  switch indicator, including settings, ally capabilities, movement lock,
+  original-asset preferences, and keyboard Caps.
+- Active characters in the same dungeon room share out-of-combat buff support,
+  including both co-op parties when together. Urgent ally support goes first;
+  useful cheaper mass casts precede self-casts, followed by the cheapest
+  eligible **All** helper. Buffs use exact affordability without a healing-SP
+  reserve, so automatic buffing can spend all available SP.
+- Existing AI-enabled buffs migrate to **All**, even if their old Auto checkbox
+  was off. Explicit new modes are preserved when saving and switching control.
+- Automatic human combat defaults choose **Attack** when enabled, otherwise
+  **Tank** when enabled, otherwise **Defend**. Manually selected stances remain
+  in effect during the encounter.
+- Local party/world saves run in the background to reduce pauses during
+  movement, town visits, and sales. Pending saves coalesce to the latest state;
+  coherent checkpoints and recovery protection are retained.
+- Tavern cards scroll horizontally and show every saved character's guild
+  levels, including an active guild at level zero.
+- Store sale lists and receipts show the item's gross offer consistently;
+  actual party sharing and ally expenses are unchanged.
+
+### Fixed
+- Leaving the game, switching apps, and Android Back flush the latest local
+  save without waiting for a cloud upload.
+- Ally capability and spell-mode changes preserve menu controls, scroll
+  position, and focus instead of jumping back to the top.
+- Mass Levitate, Mass Sight Veil, and Mass Protection affect eligible party
+  characters, not charmed monsters, matching the original game. Automatic
+  casting no longer spends SP solely for ineffective companion buff entries.
+- Characters on different cells of a valid area-zero room can share buffs.
+  Characters in other rooms or on other floors remain excluded.
+- An already-buffed character can use a mass-buff item to help an unbuffed
+  character in the actual participating party.
+- Mobile slide-to-activate gestures toggle Caps and ally-menu switches
+  correctly without double-activating ordinary taps.
+- Compact spell lists retain readable names, aligned SP costs, and accessible
+  buff controls without shrinking fonts.
+
+## [0.1.71] — 2026-10-14
 
 Recruit your own characters, build larger solo parties, and switch control
 without leaving the dungeon.
