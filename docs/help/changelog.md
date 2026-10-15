@@ -11,7 +11,53 @@ project uses git-height–based versioning (clean `0.1.x` releases on `main`).
 
 No changes yet.
 
-## [0.1.69] — 2026-10-12 — current release
+## [0.1.71] — 2026-10-14 — current release
+
+Recruit your own characters, build larger solo parties, and switch control
+without leaving the dungeon.
+
+### Added
+- Other saved characters with compatible alignments appear in the Tavern,
+  with their equipment shown alongside their character details. Hire them
+  without a generated ally's recruitment fee.
+- Single-player parties support up to three allies and eight monster
+  companions. Each co-op player can hire one ally and keep four monsters.
+- Expanded solo parties use a scrollable left sidebar for allies and companions.
+- Switch control to a living, active saved party member in town or the dungeon.
+  The character keeps their own equipment, progression, inventory, and bank;
+  the original character remains the party's save anchor.
+- Town party exchange supports items and bank gold between real characters,
+  with an amount scroller capped at the sender's bank balance.
+
+### Changed
+- Saved recruits use the existing ally AI while retaining their own character
+  progression. Their personal companion rosters remain inactive while hired.
+- Party members and monsters exceeding the current mode's limits are parked
+  rather than discarded, with reunion and dismissal support.
+- Dungeon income is shared among eligible participants in the encounter;
+  shared town sales credit the appropriate characters' banks.
+- Monster kills by any party member or companion count toward the involved
+  party members' monster quests.
+- Canonical party members and the shared world are saved together through a
+  recoverable local or cloud transaction. Newer or incompatible save data is
+  rejected rather than overwritten.
+
+### Fixed
+- Saved recruits receive normal individual death and town recovery, using their
+  own banks, including when a parked character rejoins in town.
+- Party identification and perception consider every living active ally.
+  Consumable stat gains no longer give saved recruits free mirrored increases.
+- Replacing a chest-opening command cancels only the issuing character's
+  opening; switching control preserves committed actions and the original opener.
+- Switching characters saves both co-op players' live encounters, including
+  encounters started after teleporting, so they survive reloading.
+- Interrupted save preparation and blocked cleanup retain recovery journals.
+  A failed journal deletion can no longer turn a committed save into a rollback
+  or delete a newly saved character.
+- Recovery-required parties cannot be retired, deleted, or mutated before
+  recovery and reload.
+
+## [0.1.69] — 2026-10-12
 
 Mage allies, targeted item spells, and more reliable companion support.
 
