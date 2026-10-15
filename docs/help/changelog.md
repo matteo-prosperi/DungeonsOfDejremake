@@ -11,7 +11,7 @@ project uses git-height–based versioning (clean `0.1.x` releases on `main`).
 
 No changes yet.
 
-## [0.1.73] — 2026-10-15 — current release
+## [0.1.74] — 2026-10-15 — current release
 
 Consistent switches, shared buff automation, and smoother local saving.
 
