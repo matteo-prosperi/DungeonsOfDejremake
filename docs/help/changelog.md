@@ -7,9 +7,21 @@ project uses git-height–based versioning (clean `0.1.x` releases on `main`).
 
 [Back to Help index](index.md)
 
-## [Unreleased]
+## [0.1.89] — 2026-11-24
+
+Smoother dungeon exploration and combat, with AI settings for the character
+you're playing.
+
+### Added
+- Open AI behavior settings for a controlled character from their own
+  character details, not just from an ally's inspection screen.
 
 ### Changed
+- The dungeon automap reuses terrain when you revisit known tiles and updates
+  only affected sections as you discover new ones.
+- The dungeon HUD does less repeated work when entering encounters and during
+  combat, including when co-op players fight in separate rooms. Combat pacing
+  and spell eligibility are unchanged.
 - Removed the redundant **Party** button from the town character page.
   Character switching remains available through each player's town name
   dropdown; Party information and Exchange are unchanged.
@@ -17,8 +29,9 @@ project uses git-height–based versioning (clean `0.1.x` releases on `main`).
   limits, control switching, income sharing, item/gold Exchange, buff modes and
   AI behavior, the current dungeon HUD, targeted spells/items, gameplay settings,
   checkpoint saving, cloud saves, and remembered teleporter navigation.
+- Added more surnames to the pool for generated Mage allies in the Tavern.
 
-## [0.1.81] — 2026-10-19 — current release
+## [0.1.81] — 2026-10-19
 
 Clearer dungeon controls, faster character switching, and redesigned party menus.
 
