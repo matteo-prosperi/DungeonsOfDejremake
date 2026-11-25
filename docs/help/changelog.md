@@ -7,6 +7,35 @@ project uses git-height–based versioning (clean `0.1.x` releases on `main`).
 
 [Back to Help index](index.md)
 
+## [0.1.92] — 2026-11-25
+
+Faster town screens and transitions, less redraw work during touch movement,
+and fixes for dungeon companions.
+
+### Changed
+- Town loads buildings and the dungeon in the background so the interface
+  stays responsive while entering them. Returning from a building reuses
+  town artwork.
+- The General Store builds buy-row contents as they come into view and
+  updates existing stock rows in place when possible, making large stock
+  lists and item sales faster.
+- The Guild Hall reuses recently displayed artwork, and the Library reuses
+  its lists when switching between unchanged catalogs.
+- The Dungeon Character Panel builds secondary tabs on first use. The Tavern
+  builds saved recruit cards as needed and reads each candidate's save once
+  per inspection. Recruitment still revalidates the save before hiring.
+- Touch movement button highlights no longer redraw the dungeon automap
+  while they fade.
+
+### Fixed
+- Accepting a valid monster join offer no longer fails because the monster
+  has no entourage. If your companion roster is full, the game tells you and
+  keeps the offer available.
+- The solo dungeon's left column collapses when your last living companion
+  dies, even if you're carrying the body.
+- The Store's sale receipt clears when you select a different item or
+  alignment variant.
+
 ## [0.1.89] — 2026-11-24
 
 Smoother dungeon exploration and combat, with AI settings for the character
