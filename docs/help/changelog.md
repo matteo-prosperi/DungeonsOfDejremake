@@ -7,6 +7,32 @@ project uses git-height–based versioning (clean `0.1.x` releases on `main`).
 
 [Back to Help index](index.md)
 
+## [0.1.94] — 2026-11-27
+
+More responsive cloud saving, adaptive companion placement, and fixes for
+store buyback, carried companions, and Seer predictions.
+
+### Changed
+- Cloud file cleanup no longer holds up local background checkpoints, cloud
+  publishing, main-menu synchronization, or conflict-resolution saves.
+  Interrupted cleanup yields rather than continuing an outdated deletion batch.
+- Cloud synchronization reuses matching local or previously verified cloud
+  content, avoids uploading unchanged objects, and skips unchanged manifest
+  writes. Integrity, compatibility, party, and conflict checks remain in place.
+- In single-player, monster companions appear beneath allies in the right
+  column when they fit without shrinking portraits or reducing encounter space.
+  Larger rosters retain the bottom-left layout; co-op placement is unchanged.
+
+### Fixed
+- Sold items that the General Store does not normally stock, including an
+  unidentified Medusa's Head, remain available for buyback until you leave
+  the store. Normal store stock is unchanged.
+- Choosing **Leave Behind** for a petrified carried companion no longer causes
+  the Raise Companion prompt to return on every visit to town.
+- Seer monster predictions survive rejected encounter compositions and are
+  consumed only when the predicted monster actually appears. Encounter retries
+  retain the correct monster type, fixing lost predictions such as Nabutu hunts.
+
 ## [0.1.92] — 2026-11-25
 
 Faster town screens and transitions, less redraw work during touch movement,
