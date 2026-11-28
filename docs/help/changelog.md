@@ -7,6 +7,30 @@ project uses git-height–based versioning (clean `0.1.x` releases on `main`).
 
 [Back to Help index](index.md)
 
+## [0.1.95] — 2026-11-27
+
+Remembered guild equipment with optional, item-safe restoration.
+
+### Added
+- Changing guilds remembers that character's outgoing equipment. When returning
+  to a guild, choose **Restore** or **Keep Current** without undoing the guild
+  change.
+- The restoration chooser shows contested current and saved items side by side,
+  with identification-aware icons. Weapon and shield choices share a group
+  that permits a weapon plus shield or a two-handed weapon alone.
+- Restoration uses existing matching items from that character's inventory or
+  bank, allowing partial loadouts when saved items are unavailable. Unrestricted
+  current gear is preserved by default; explicit choices can override this.
+- Displaced equipment goes to the bank first, then unequipped inventory.
+  Restoration applies atomically only when every item can be safely stored and
+  equipped; missing items are never recreated and no items are discarded.
+- Loadouts are saved separately for each character, including co-op characters,
+  with grouped character-and-bank checkpoints after switching and restoring.
+
+### Fixed
+- Joining a new guild checks storage for mandatory equipment removals before
+  charging the joining fee or changing the active guild.
+
 ## [0.1.94] — 2026-11-27
 
 More responsive cloud saving, adaptive companion placement, and fixes for
