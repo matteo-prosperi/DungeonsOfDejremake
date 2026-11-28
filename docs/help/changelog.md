@@ -7,7 +7,7 @@ project uses git-height–based versioning (clean `0.1.x` releases on `main`).
 
 [Back to Help index](index.md)
 
-## [0.1.97] — 2026-11-27
+## [0.1.98] — 2026-11-27
 
 Full-price Store returns, Seer boosts for every paid consultation, and faithful
 expiration of surviving dungeon encounters.
