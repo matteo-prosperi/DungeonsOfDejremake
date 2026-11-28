@@ -7,6 +7,33 @@ project uses git-height–based versioning (clean `0.1.x` releases on `main`).
 
 [Back to Help index](index.md)
 
+## [0.1.97] — 2026-11-27
+
+Full-price Store returns, Seer boosts for every paid consultation, and faithful
+expiration of surviving dungeon encounters.
+
+### Added
+- Items bought from the General Store can be **Returned** for the exact purchase
+  price before leaving the store, without party sharing or sale expenses, while
+  the purchased item remains unchanged.
+- Purchased consumables that merge into an existing stack retain receipts for
+  their purchased units. Older units keep ordinary sale rules; returns use the
+  actual prices paid and expire when leaving the store.
+
+### Changed
+- Every accepted Seer monster/item consultation activates its prediction boost,
+  even when the advice is only a floor hint, fails completely, or finds no
+  location/carrier. Advice RNG and fees are unchanged, and no extra confirmation
+  is shown.
+
+### Fixed
+- Surviving monsters no longer remain in unattended rooms forever. On room
+  re-entry they can be replaced after strictly more than twice the normal,
+  population-adjusted respawn interval, matching the original game.
+- Occupied-room expiration also applies when reloading a dungeon save and to
+  secondary-player room entry. Active co-op fights are preserved, and replacing
+  surviving monsters does not incorrectly increase dungeon population.
+
 ## [0.1.95] — 2026-11-27
 
 Remembered guild equipment with optional, item-safe restoration.
